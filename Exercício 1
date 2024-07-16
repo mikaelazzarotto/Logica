@@ -1,1 +1,10 @@
+let nome 
+let idade 
 
+typeof nome 
+typeof idade 
+
+//ficou indefinido pois a variável não teve valor atribuido
+
+nome = prompt ("Olá usuário, qual o seu nome?")
+idade = prompt ("Qual a sua idade?")
