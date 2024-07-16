@@ -1,0 +1,7 @@
+let nome = prompt ("Qual o seu nome?")
+let anoNascimento = Number (prompt ("Qual o ano do seu nascimento?"))
+let anoAtual = 2024
+
+let idade = anoNascimento - anoAtual
+
+let maiorIdade = idade <= 18
