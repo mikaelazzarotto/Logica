@@ -3,8 +3,6 @@
 let generoFilme = prompt ("Qual o gênero do filme que vão assistir?")
 let preco = Number (prompt ("Qual o preço do ingresso?"))
 
-let resultado
-
 if (generoFilme === "fantasia" && preco <= 15) {
     console.log("Bom filme!");
 } else {
